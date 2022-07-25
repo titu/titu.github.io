@@ -2,9 +2,7 @@ export default function About() {
   return (
     <div id="about" className="h-screen scroll-mt-16 px-8 snap-start">
       <div className="el-container">
-        <h1 className="pt-8 text-4xl font-semibold text-gray-500 uppercase">
-          About Me
-        </h1>
+        <h1 className="content-title">About Me</h1>
         <div className="mt-10 description-text">
           <p>
             I’m a full-stack senior software developer with 14 years of

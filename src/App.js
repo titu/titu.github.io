@@ -1,4 +1,5 @@
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -8,14 +9,15 @@ function App() {
   return (
     <>
       <NavBar />
+      <Footer />
       <div className="striped">
         <Home />
         <About />
         <Skills />
-        <div id="projects" className="scroll-mt-16 snap-start">
+        {/* <div id="projects" className="scroll-mt-16 snap-start">
           <h1>Projects</h1>
           <br />
-        </div>
+        </div> */}
         <Contact />
       </div>
     </>

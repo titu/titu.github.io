@@ -56,10 +56,8 @@ export default function Skills() {
   return (
     <div id="skills" className="h-screen scroll-mt-16 px-8 snap-start">
       <div className="el-container">
-        <h1 className="pt-8 text-4xl font-semibold text-gray-500 uppercase">
-          My Skills
-        </h1>
-        <div className="mt-10 flex flex-wrap justify-center gap-5">
+        <h1 className="content-title">My Skills</h1>
+        <div className="pt-10 flex flex-wrap justify-center gap-5">
           {skills.map((skill) => (
             <SkillCard title={skill.title} list={skill.list} />
           ))}
