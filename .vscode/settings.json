@@ -1,0 +1,25 @@
+{
+    "css.validate": false,
+    "tailwindCSS.emmetCompletions": true,
+    // config related to code formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.validate.enable": false, //disable all built-in syntax checking
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.tslint": true,
+      // "source.organizeImports": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.ruler": 80,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "vetur.experimental.templateInterpolationService": false,
+  }
