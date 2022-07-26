@@ -58,8 +58,8 @@ export default function Skills() {
       <div className="el-container">
         <h1 className="content-title">My Skills</h1>
         <div className="pt-10 flex flex-wrap justify-center gap-5">
-          {skills.map((skill) => (
-            <SkillCard title={skill.title} list={skill.list} />
+          {skills.map((skill, index) => (
+            <SkillCard title={skill.title} list={skill.list} key={index} />
           ))}
         </div>
       </div>
