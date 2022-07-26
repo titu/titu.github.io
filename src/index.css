@@ -38,7 +38,7 @@
     mx-auto;
   }
   .description-text {
-    @apply text-justify text-lg font-extralight text-gray-500;
+    @apply text-justify text-lg font-light text-gray-500;
   }
   .card {
     border-radius: theme('borderRadius.lg');
