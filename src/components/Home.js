@@ -1,4 +1,4 @@
-import profileImage from '../assets/images/titu.png';
+import profileImage from '../assets/images/profile.png';
 
 export default function Home() {
   return (
