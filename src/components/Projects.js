@@ -2,7 +2,6 @@ import { useState } from 'react';
 import ProjectCard from './ProjectCard';
 import ProjectDialog from './ProjectDialog';
 
-/* eslint-disable no-unused-vars */
 export default function Projects() {
   const imagePath = '../assets/projects';
   const projects = [
@@ -138,16 +137,23 @@ export default function Projects() {
     }
   ];
   const [showDialog, setShowDialog] = useState(false);
-  const onProjectClick = () => {
-    debugger;
+  const [selectedProject, setSelectedProject] = useState(false);
+  const onProjectClick = (index) => {
     setShowDialog(true);
+    setSelectedProject(projects[index]);
   };
   const onProjectDialogClose = () => {
     setShowDialog(false);
+    setSelectedProject(null);
   };
+
   return (
     <>
-      <ProjectDialog showDialog={showDialog} onClose={onProjectDialogClose} />
+      <ProjectDialog
+        showDialog={showDialog}
+        onClose={onProjectDialogClose}
+        selectedProject={selectedProject}
+      />
       <div id="projects" className="h-screen scroll-mt-16 px-8 snap-start">
         <div className="el-container">
           <h1 className="content-title">Projects</h1>
