@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import ProjectCard from './ProjectCard';
+import ProjectDialog from './ProjectDialog';
 
 /* eslint-disable no-unused-vars */
 export default function Projects() {
@@ -135,20 +137,33 @@ export default function Projects() {
       ]
     }
   ];
+  const [showDialog, setShowDialog] = useState(false);
+  const onProjectClick = () => {
+    debugger;
+    setShowDialog(true);
+  };
+  const onProjectDialogClose = () => {
+    setShowDialog(false);
+  };
   return (
-    <div id="projects" className="h-screen scroll-mt-16 px-8 snap-start">
-      <div className="el-container">
-        <h1 className="content-title">Projects</h1>
-        <div className="pt-10 flex flex-wrap justify-center gap-5">
-          {projects.map((project, index) => (
-            <ProjectCard
-              title={project.title}
-              thumb={`${imagePath}/${project.imageDirName}/${project.thumb}`}
-              key={index}
-            />
-          ))}
+    <>
+      <ProjectDialog showDialog={showDialog} onClose={onProjectDialogClose} />
+      <div id="projects" className="h-screen scroll-mt-16 px-8 snap-start">
+        <div className="el-container">
+          <h1 className="content-title">Projects</h1>
+          <div className="pt-10 flex flex-wrap justify-center gap-5">
+            {projects.map((project, index) => (
+              <ProjectCard
+                title={project.title}
+                thumb={`${imagePath}/${project.imageDirName}/${project.thumb}`}
+                key={index}
+                index={index}
+                onClick={onProjectClick}
+              />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
