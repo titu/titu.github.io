@@ -6,13 +6,13 @@ export default function ProjectCard({ title, thumb, onClick, index }) {
     <div className="project-card">
       <div className="img_holder">
         <img
-          className="h-30 sm:flex-shrink-0 rounded-lg bg-[#F5F5F5]"
+          className="max-h-[160px] w-full sm:flex-shrink-0 bg-[#F5F5F5] object-cover"
           src={thumb}
           alt="Profile"
           onClick={onProjectClick}
         />
       </div>
-      <div className="card-title py-3">{title}</div>
+      <div className="font-semibold text-base pt-1">{title}</div>
     </div>
   );
 }

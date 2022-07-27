@@ -67,47 +67,55 @@ export default function ProjectDialog({
                       <Carousel images={images} />
                     </div>
                     <div className="pt-2 font-semibold text-base">
-                      <div>
-                        <div className="pt-2">Database</div>
-                        <div className="font-light text-sm">
-                          {selectedProject.database}
+                      {selectedProject.database && (
+                        <div>
+                          <div className="pt-2">Database</div>
+                          <div className="font-light text-sm">
+                            {selectedProject.database}
+                          </div>
                         </div>
-                      </div>
-                      <div>
-                        <div className="pt-2">Skills</div>
-                        <div className="font-light text-sm">
-                          <ul className="">
-                            {selectedProject.skills.map((skill, index) => (
-                              <li key={index}>{skill}</li>
-                            ))}
-                          </ul>
+                      )}
+                      {selectedProject.skills?.length && (
+                        <div>
+                          <div className="pt-2">Skills</div>
+                          <div className="font-light text-sm">
+                            <ul className="">
+                              {selectedProject.skills.join(', ')}
+                            </ul>
+                          </div>
                         </div>
-                      </div>
-                      <div>
-                        <div className="pt-2">Project description</div>
-                        <div className="font-light text-sm">
-                          {selectedProject.description}
+                      )}
+                      {selectedProject.description && (
+                        <div>
+                          <div className="pt-2">Project description</div>
+                          <div className="font-light text-sm">
+                            {selectedProject.description}
+                          </div>
                         </div>
-                      </div>
-                      <div>
-                        <div className="pt-2">Role played</div>
-                        <div className="font-light text-sm">
-                          {selectedProject.role}
+                      )}
+                      {selectedProject.role && (
+                        <div>
+                          <div className="pt-2">Role played</div>
+                          <div className="font-light text-sm">
+                            {selectedProject.role}
+                          </div>
                         </div>
-                      </div>
-                      <div>
-                        <div className="font-light text-sm pt-2">
-                          <span className="font-semibold">Project URL: </span>
-                          <a
-                            href={selectedProject.url}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="text-blue-800 hover:underline"
-                          >
-                            {selectedProject.url}
-                          </a>
+                      )}
+                      {selectedProject.url && (
+                        <div>
+                          <div className="font-light text-sm pt-2">
+                            <span className="font-semibold">Project URL: </span>
+                            <a
+                              href={selectedProject.url}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="text-blue-800 hover:underline"
+                            >
+                              {selectedProject.url}
+                            </a>
+                          </div>
                         </div>
-                      </div>
+                      )}
                     </div>
                   </div>
                 </Dialog.Panel>
