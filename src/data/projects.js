@@ -89,8 +89,7 @@ const projects = [
     thumb: '1.png',
     skills: ['Vue.js', 'Vuex', 'OpenLayers', 'RxJS', 'SCSS'],
     database: '',
-    description:
-      'Indrz is a map based web application for university indoor wayfinding, mapping and routing. The platform is for example used by a University that wants to provide its guests, staff and students a web map platform to allow them to find anything on campus',
+    description: `Indrz is a map based web application for university indoor wayfinding, mapping and routing. The platform is for example used by a University that wants to provide its guests, staff and students a web map platform to allow them to find anything on campus`,
     role: 'Senior Front-end Developer',
     url: 'https://tuw-maps.tuwien.ac.at',
     images: ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png']
@@ -123,8 +122,7 @@ const projects = [
     thumb: '4.png',
     skills: ['Backbone.js', 'Node.js', 'Hapi', 'Redis'],
     database: 'Firebase',
-    description:
-      'MeetingPulse by inMoment software is the simple but powerful tool for real-time audience interaction. Used at meetings, events, town halls, panels and more.',
+    description: `MeetingPulse by inMoment software is the simple but powerful tool for real-time audience interaction. Used at meetings, events, town halls, panels and more.`,
     role: 'Senior Full-Stack Developer',
     url: 'https://meet.ps',
     images: [
@@ -159,8 +157,7 @@ const projects = [
       'Socket.IO'
     ],
     database: 'MongoDB',
-    description:
-      'A real estate managing and business expanding application. This project was to upgrading the previous project GetM from AngularJS to Angular 6 and some new features included',
+    description: `A real estate managing and business expanding application. This project was to upgrading the previous project GetM from AngularJS to Angular 6 and some new features included`,
     role: 'Full-Stack Developer',
     url: 'https://getm.io',
     images: [
@@ -204,6 +201,31 @@ const projects = [
       '8.png',
       '9.png',
       '10.png'
+    ]
+  },
+  {
+    title: 'MLPElevate',
+    imageDirName: 'mlpelevate',
+    thumb: '1.png',
+    skills: ['Node.js', 'ExtJS', 'AWS S3'],
+    database: 'MongoDB',
+    description: `MLPElevate is an online video based Evaluator Training and Certification System.
+    There are more than hundreds of organizations having thousands of users are using that application.`,
+    role: 'Full-Stack Developer',
+    url: 'https://www.mlpelevate.com',
+    images: [
+      '1.png',
+      '2.png',
+      '3.png',
+      '4.png',
+      '5.png',
+      '6.png',
+      '7.png',
+      '8.png',
+      '9.png',
+      '10.png',
+      '11.png',
+      '12.png'
     ]
   }
 ];
