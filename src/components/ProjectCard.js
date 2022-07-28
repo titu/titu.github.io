@@ -1,15 +1,22 @@
+import { useState } from 'react';
+
 export default function ProjectCard({ title, thumb, onClick, index }) {
+  const [loading, setLoading] = useState(true);
+
   const onProjectClick = () => {
     onClick(index);
   };
   return (
     <div className="project-card">
-      <div className="img_holder">
+      <div className="img_holder md:h-[120px] items-center justify-center flex">
+        <div style={{ display: loading ? 'block' : 'none' }}>Loading...</div>
         <img
-          className="max-h-[120px] w-full sm:flex-shrink-0 bg-[#F5F5F5] object-cover"
+          style={{ display: loading ? 'none' : 'block' }}
+          className="md:h-[120px] w-full sm:flex-shrink-0 bg-[#F5F5F5] object-cover"
           src={thumb}
           alt="Profile"
           onClick={onProjectClick}
+          onLoad={() => setLoading(false)}
         />
       </div>
       <div className="font-semibold text-base pt-1">{title}</div>
