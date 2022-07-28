@@ -81,8 +81,16 @@ export default function Carousel({ images }) {
         <div className="carousel">
           {sliderControl(true)}
           {images.map((img, i) => (
-            <div className="w-full flex-shrink-0" key={img} ref={refs[i]}>
-              <img src={img} className="w-full object-contain" alt="" />
+            <div
+              className="w-full items-center flex-shrink-0"
+              key={img}
+              ref={refs[i]}
+            >
+              <img
+                src={img}
+                className="mx-auto md:max-w[773px] md:max-h-[440px] object-cover"
+                alt=""
+              />
             </div>
           ))}
           {sliderControl()}

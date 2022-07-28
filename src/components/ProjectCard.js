@@ -6,7 +6,7 @@ export default function ProjectCard({ title, thumb, onClick, index }) {
     <div className="project-card">
       <div className="img_holder">
         <img
-          className="max-h-[160px] w-full sm:flex-shrink-0 bg-[#F5F5F5] object-cover"
+          className="max-h-[120px] w-full sm:flex-shrink-0 bg-[#F5F5F5] object-cover"
           src={thumb}
           alt="Profile"
           onClick={onProjectClick}

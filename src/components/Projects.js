@@ -26,7 +26,7 @@ export default function Projects() {
       <div id="projects" className="h-screen scroll-mt-16 px-8 snap-start">
         <div className="el-container">
           <h1 className="content-title">Projects</h1>
-          <div className="pt-10 flex flex-wrap justify-center gap-5">
+          <div className="pt-10 flex flex-wrap justify-center gap-3">
             {projects.map((project, index) => (
               <ProjectCard
                 title={project.title}

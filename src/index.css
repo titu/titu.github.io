@@ -61,7 +61,7 @@
       min-w-[320px];
   }
   .project-card {
-    @apply md:w-[270px]
+    @apply md:w-[220px]
       bg-gray-50
       text-sm
       font-light
