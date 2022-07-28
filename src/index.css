@@ -61,17 +61,17 @@
       min-w-[320px];
   }
   .project-card {
-    @apply max-w-[300px]
+    @apply md:w-[270px]
       bg-gray-50
       text-sm
       font-light
       text-gray-500
-      min-w-[270px]
       rounded-lg
       p-2
       shadow-xl
       duration-100 
-      hover:scale-105;
+      hover:scale-105
+      cursor-pointer
   }
   .icon-button {
     @apply border

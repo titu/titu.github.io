@@ -29,13 +29,93 @@ const projects = [
     title: 'Crypto',
     imageDirName: 'crypto',
     thumb: '1.png',
-    skills: ['Vue 3', 'TypeScript', 'Socket.IO'],
+    skills: ['Vue 3', 'Vuex', 'TypeScript', 'Socket.IO'],
     database: '',
     description:
       'The application focus was to predict the market to earn cryptocurrencies.',
     role: 'My role was to implement the application architecture with Vue 3, add primary components and store files so that his junior developer can take and keep going, fix bugs, and brief on solving complex features.',
     url: '',
     images: ['1.png', '2.png']
+  },
+  {
+    title: 'Khibra',
+    imageDirName: 'khibra',
+    thumb: '1.png',
+    skills: ['React', 'Node.js'],
+    database: 'PostgreSQL',
+    description:
+      'Khibra is an web application connecting fresh grades to universities and employers',
+    role: 'Senior Full-Stack Developer',
+    url: 'https://www.getkhibra.com',
+    images: [
+      '1.png',
+      '2.png',
+      '3.png',
+      '4.png',
+      '5.png',
+      '6.png',
+      '7.png',
+      '8.png',
+      '9.png',
+      '10.png'
+    ]
+  },
+  {
+    title: 'Project Canary',
+    imageDirName: 'canary',
+    thumb: '1.png',
+    skills: ['React', 'Node.js', 'D3.js', 'NGINX'],
+    database: 'MongoDB',
+    description:
+      'Project Canary is a teal time air quality sensor management portal. This application helps the IoT company that is committed to helping the oil and gas industry reduce methane/VOC emissions. They deploy real-time sensors that continuously analyze air quality at remote sites.',
+    role: 'Senior Full-Stack Developer',
+    url: 'https://dashboard.projectcanary.io',
+    images: [
+      '1.png',
+      '2.png',
+      '3.png',
+      '4.png',
+      '5.png',
+      '6.png',
+      '7.png',
+      '8.png',
+      '9.png',
+      '10.png'
+    ]
+  },
+  {
+    title: 'Indrz',
+    imageDirName: 'indrz',
+    thumb: '1.png',
+    skills: ['Vue.js', 'Vuex', 'OpenLayers', 'RxJS', 'SCSS'],
+    database: '',
+    description:
+      'Indrz is a map based web application for university indoor wayfinding, mapping and routing. The platform is for example used by a University that wants to provide its guests, staff and students a web map platform to allow them to find anything on campus',
+    role: 'Senior Front-end Developer',
+    url: 'https://tuw-maps.tuwien.ac.at',
+    images: ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png']
+  },
+  {
+    title: 'Hello Tunnel',
+    imageDirName: 'hellotunnel',
+    thumb: '4.png',
+    skills: ['Vue.js', 'Vuex', 'SCSS', 'Facebook API', 'Dropbox API'],
+    database: '',
+    description:
+      'A social media management platform. Strategically Plan, Schedule, Manage & Auto Post to FB & Instagram',
+    role: 'Senior Front-end Developer',
+    url: 'https://youtu.be/Xgy4tMipOjU',
+    images: [
+      '1.png',
+      '2.png',
+      '3.png',
+      '4.png',
+      '5.png',
+      '6.png',
+      '7.png',
+      '8.png',
+      '9.png'
+    ]
   }
 ];
 
