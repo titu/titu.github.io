@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -14,10 +15,7 @@ function App() {
         <Home />
         <About />
         <Skills />
-        {/* <div id="projects" className="scroll-mt-16 snap-start">
-          <h1>Projects</h1>
-          <br />
-        </div> */}
+        <Projects />
         <Contact />
       </div>
     </>

@@ -44,7 +44,7 @@
     border-radius: theme('borderRadius.lg');
     padding: theme('spacing.6');
     box-shadow: theme('boxShadow.xl');
-    @apply duration-100 hover:scale-150 shadow-red-600;
+    @apply duration-100 hover:scale-150;
   }
   .card-title {
     @apply text-left
@@ -59,6 +59,19 @@
       font-light
       text-gray-500
       min-w-[320px];
+  }
+  .project-card {
+    @apply md:w-[220px]
+      bg-gray-50
+      text-sm
+      font-light
+      text-gray-500
+      rounded-lg
+      p-2
+      shadow-xl
+      duration-100 
+      hover:scale-105
+      cursor-pointer
   }
   .icon-button {
     @apply border
@@ -109,5 +122,15 @@
   }
   .content-title {
     @apply pt-8 text-4xl font-semibold text-cyan-900 uppercase;
+  }
+  .carousel {
+    display: inline-flex;
+    overflow-x: hidden;
+    /*  scroll snap is a great feature which will center the image on snap on touch screen devices  */
+    scroll-snap-type: x mandatory;
+    /* all below will hide the scrollbar on all browsers.    */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
   }
 }
