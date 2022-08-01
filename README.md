@@ -21,16 +21,17 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#project-details">About The Project</a>
+      <a href="#project-details">Project Details</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#setup">Setup</a></li>
-      </ul>
+      <a href="#prerequisites">Prerequisites</a>
     </li>
+    <li><a href="#setup">Setup</a></li>
+    <li><a href="#run">Run</a></li>
+    <li><a href="#deployment">Deployment</a></li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#support">Support</a></li>
+    <li><a href="#author">Author</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
@@ -84,9 +85,9 @@ You should have [Nodejs](https://nodejs.org/en/) and [Git](https://git-scm.com/d
       npm run deploy
     ```
 
-# 🤝 Contributing
+# Contributing
 
-Contributions help in making the open source community an amazing place to be learn, inspire, and create awesome things. Any contributions you make are greatly appreciated.
+🤝 Contributions help in making the open source community an amazing place to be learn, inspire, and create awesome things. Any contributions you make are greatly appreciated.
 
 1. Fork the Project
 2. Create your Feature Branch (git checkout -b feature/branchName)
@@ -94,11 +95,10 @@ Contributions help in making the open source community an amazing place to be le
 4. Push to the Branch (git push origin feature/branchName)
 5. Open a Pull Request
 
-# 💛 Support
-
+# Support
 If you like this Portfolio app, I will be glad to have your support! It will help keeping the project alive.
 
-The sinplest form of support is to give a ⭐️ to this repo.
+💛 The sinplest form of support is to give a ⭐️ to this repo.
 
 # Author
 
@@ -106,5 +106,5 @@ The sinplest form of support is to give a ⭐️ to this repo.
  - Website: https://titu.github.io
  - Github: [@titu](https://github.com/titu)
 
-# 📝 License
-[MIT](https://github.com/titu/titu.github.io/blob/main/LICENSE)
+# License
+📝 [MIT](https://github.com/titu/titu.github.io/blob/main/LICENSE)
