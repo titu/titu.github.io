@@ -12,7 +12,9 @@
 <br />
 <p>
 
-[![GitHub forks](https://img.shields.io/github/forks/titu/titu.github.io?style=for-the-badge)](https://github.com/titu/titu.github.io/network/members)
+[![GitHub forks](https://img.shields.io/github/forks/titu/titu.github.io?style=for-the-badge)](https://github.com/titu/titu.github.io/network)
+[![GitHub stars](https://img.shields.io/github/stars/titu/titu.github.io?style=for-the-badge)](https://github.com/titu/titu.github.io/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/titu/titu.github.io?style=for-the-badge)](https://github.com/titu/titu.github.io/issues)
 [![GitHub license](https://img.shields.io/github/license/titu/titu.github.io?style=for-the-badge)](https://github.com/titu/titu.github.io/blob/main/LICENSE)
 [![Report Bug](https://img.shields.io/badge/Report-Bug-red?style=for-the-badge)](https://github.com/titu/titu.github.io/issues)
 </div>
