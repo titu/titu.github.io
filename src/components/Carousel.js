@@ -1,9 +1,9 @@
-import { useState, createRef } from 'react';
+import { useState, createRef, useEffect } from 'react';
 
 export default function Carousel({ images }) {
   // We will start by storing the index of the current image in the state.
   const [currentImage, setCurrentImage] = useState(0);
-
+  const [loading, setLoading] = useState(null);
   // We are using react ref to 'tag' each of the images. Below will create an array of
   // objects with numbered keys. We will use those numbers (i) later to access a ref of a
   // specific image in this array.
@@ -11,6 +11,14 @@ export default function Carousel({ images }) {
     acc[i] = createRef();
     return acc;
   }, {});
+
+  useEffect(() => {
+    let imgState = {};
+    for (let i = 0; i < images.length; i++) {
+      imgState[i] = false;
+    }
+    setLoading(imgState);
+  }, [images]);
 
   const scrollToImage = (i) => {
     // First let's set the index of the image we want to see next
@@ -80,19 +88,31 @@ export default function Carousel({ images }) {
       <div className="relative w-full">
         <div className="carousel">
           {sliderControl(true)}
-          {images.map((img, i) => (
-            <div
-              className="w-full items-center flex-shrink-0"
-              key={img}
-              ref={refs[i]}
-            >
-              <img
-                src={img}
-                className="mx-auto md:max-w[773px] md:max-h-[440px] object-cover"
-                alt=""
-              />
-            </div>
-          ))}
+          {loading &&
+            images.map((img, i) => (
+              <div
+                className="w-full items-center justify-center flex flex-shrink-0"
+                key={img}
+                ref={refs[i]}
+              >
+                <div
+                  style={{ display: loading && !loading[i] ? 'block' : 'none' }}
+                >
+                  Loading...
+                </div>
+                <img
+                  src={img}
+                  style={{ display: loading && !loading[i] ? 'none' : 'block' }}
+                  className="mx-auto md:max-w[773px] md:max-h-[440px] object-cover"
+                  alt=""
+                  onLoad={() =>
+                    setLoading((prevState) => {
+                      return { ...prevState, [i]: true };
+                    })
+                  }
+                />
+              </div>
+            ))}
           {sliderControl()}
         </div>
       </div>

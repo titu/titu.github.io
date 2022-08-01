@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+<p align="center">
+  <h1 align="center">Personal Portfolio</h1>
+  <div align="center">
+    URL: <strong><a href="https://titu.github.io" target="_blank">titu.github.io</a></strong>
+  </div>
+  <br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    A personal profession portfolio website provides information about what I do, what services I offer, and how to contact with me.
+  </p>
+</p>
+<br />
+<p>
 
-## Available Scripts
+[![GitHub forks](https://img.shields.io/github/forks/titu/titu.github.io?style=for-the-badge)](https://github.com/titu/titu.github.io/network/members)
+[![GitHub license](https://img.shields.io/github/license/titu/titu.github.io?style=for-the-badge)](https://github.com/titu/titu.github.io/blob/main/LICENSE)
+[![Report Bug](https://img.shields.io/badge/Report-Bug-red?style=for-the-badge)]([https://nodejs.org](https://github.com/titu/titu.github.io/issues))  
+</div>
 
-In the project directory, you can run:
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#project-details">Project Details</a>
+    </li>
+    <li>
+      <a href="#prerequisites">Prerequisites</a>
+    </li>
+    <li><a href="#setup">Setup</a></li>
+    <li><a href="#run">Run</a></li>
+    <li><a href="#deployment">Deployment</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#support">Support</a></li>
+    <li><a href="#author">Author</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Project Details
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!--[![titu.github.io](/assets/screenshot.gif)](https://titu.github.io)-->
+I was looking into creating a portfolio app which can be easily configured just only providing the data. I ended up creating this application which needs zero configuration and data in JSON format. That is really user friendly as no need to worry about the UI, style or anything. User can place his/her data as text and their images/screenshots for portfolio in proper directory and the app is ready!
 
-### `npm test`
+I will continuously furnish this application by adding new features and fixing issues. It would be highly appreciated if you fork this repo, report an issue if found, suggesting new features or send a pull request.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I've deployed this portfolio app to Github Page. GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations.
 
-### `npm run build`
+**Technical Stack**
+- React
+- Tailwind CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You should have [Nodejs](https://nodejs.org/en/) and [Git](https://git-scm.com/downloads) installed on your computer.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Setup
 
-### `npm run eject`
+1. Fork this repoistory and clone it to your local machine.
+    ```sh
+      git clone https://github.com/titu/titu.github.io.git
+    ``` 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. To install the dependencies cd into the project root and run the following commands in your terminal/command prompt.
+    ```sh
+      npm install
+    ```
+# Run
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. To start running the app, run the following command in a new terminal:
+    ```sh
+      npm run start
+    ```
+2. Open the browser to http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. To build the app, run the following command:
+    ```sh
+      npm run build
+    ```
+2. After successful build, you can deploy to your preferred hosting.
+3. To use the Github Pages, you can see [their doc](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site), and in that case you can run the following command to publish to your Github Page:
+    ```sh
+      npm run deploy
+    ```
 
-## Learn More
+# Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🤝 Contributions help in making the open source community an amazing place to be learn, inspire, and create awesome things. Any contributions you make are greatly appreciated.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/branchName)
+3. Commit your Changes (git commit -m 'Added new feature')
+4. Push to the Branch (git push origin feature/branchName)
+5. Open a Pull Request
 
-### Code Splitting
+# Support
+If you like this Portfolio app, I will be glad to have your support! It will help keeping the project alive.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+💛 The sinplest form of support is to give a ⭐️ to this repo.
 
-### Analyzing the Bundle Size
+# Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 **Abdullah Al Mohammad**
+ - Website: https://titu.github.io
+ - Github: [@titu](https://github.com/titu)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+📝 [MIT](https://github.com/titu/titu.github.io/blob/main/LICENSE)
