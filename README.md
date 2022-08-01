@@ -67,6 +67,15 @@ You should have [Nodejs](https://nodejs.org/en/) and [Git](https://git-scm.com/d
     ```sh
       npm install
     ```
+
+3. Add your own data
+ - **Data Directory:**
+There is a data directory under `./src/data`. This data directory contains the data files for each of the sections like `home.js`, `about.js` and so on. You just need to fill those out with your own data.
+ - **Profile Picture:**
+Create your profile image named `profile.png` and place it under `./public/assets/images/` directory.
+ - **Portfolio Project Pictures:**
+For each of the projects which you've pictures, create a directory under `./public/assets/projects/` and put those pictures inside your new project directory. You can easily configure the `./src/data/projects.js` data file with the projects and pictures of those.
+
 # Run
 
 1. To start running the app, run the following command in a new terminal:
