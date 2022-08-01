@@ -1,4 +1,4 @@
-import profileImage from '../assets/images/profile.png';
+import homeData from '../data/home';
 
 export default function Home() {
   return (
@@ -7,20 +7,20 @@ export default function Home() {
         <div className="w-2/4 flex justify-center align-middle">
           <div>
             <p className="text-lg text-cyan-900 font-medium uppercase">
-              Hello, I'm
+              {homeData.greetings}
             </p>
             <p className="mt-8 text-4xl font-semibold text-cyan-900 uppercase">
-              Abdullah Al Mohammad
+              {homeData.name}
             </p>
             <p className="mt-8 text-sm text-cyan-900 uppercase">
-              A Computer Engineer and working as a Senior Full-Stack Developer
+              {homeData.whatIDo}
             </p>
           </div>
         </div>
         <div className="w-2/4 flex justify-center">
           <img
             className="h-96 sm:flex-shrink-0 duration-500 hover:scale-105 rounded-lg bg-[#F5F5F5] shadow-lg shadow-cyan-900"
-            src={profileImage}
+            src="../assets/images/profile.png"
             alt="Profile"
           />
         </div>
