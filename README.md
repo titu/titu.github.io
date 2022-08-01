@@ -70,8 +70,41 @@ You should have [Nodejs](https://nodejs.org/en/) and [Git](https://git-scm.com/d
     ```sh
       npm run start
     ```
-2. While developing before you are applying any style changes, run the following command to enable the tailwind
+2. Open the browser to http://localhost:3000
+
+# Deployment
+
+1. To build the app, run the following command:
     ```sh
-      npm run tailwind
-    ```   
-3. Open the browser to http://localhost:3000
+      npm run build
+    ```
+2. After successful build, you can deploy to your preferred hosting.
+3. To use the Github Pages, you can see [their doc](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site), and in that case you can run the following command to publish to your Github Page:
+    ```sh
+      npm run deploy
+    ```
+
+# 🤝 Contributing
+
+Contributions help in making the open source community an amazing place to be learn, inspire, and create awesome things. Any contributions you make are greatly appreciated.
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/branchName)
+3. Commit your Changes (git commit -m 'Added new feature')
+4. Push to the Branch (git push origin feature/branchName)
+5. Open a Pull Request
+
+# 💛 Support
+
+If you like this Portfolio app, I will be glad to have your support! It will help keeping the project alive.
+
+The sinplest form of support is to give a ⭐️ to this repo.
+
+# Author
+
+👤 **Abdullah Al Mohammad**
+ - Website: https://titu.github.io
+ - Github: [@titu](https://github.com/titu)
+
+# 📝 License
+[MIT](https://github.com/titu/titu.github.io/blob/main/LICENSE)
