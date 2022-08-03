@@ -2,7 +2,7 @@ import aboutData from '../data/about';
 
 export default function About() {
   return (
-    <div id="about" className="h-screen scroll-mt-16 px-8 snap-start">
+    <div id="about" className="pages">
       <div className="el-container">
         <h1 className="content-title">About Me</h1>
         <div

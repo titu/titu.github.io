@@ -23,7 +23,7 @@ export default function Projects() {
         onClose={onProjectDialogClose}
         selectedProject={selectedProject}
       />
-      <div id="projects" className="h-screen scroll-mt-16 px-8 snap-start">
+      <div id="projects" className="pages">
         <div className="el-container">
           <h1 className="content-title">Projects</h1>
           <div className="pt-10 flex flex-wrap justify-center gap-3">

@@ -16,7 +16,7 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact" className="h-screen scroll-mt-16 px-8 snap-start">
+    <div id="contact" className="pages">
       <div className="el-container">
         <h1 className="content-title">Get In Touch</h1>
         <p

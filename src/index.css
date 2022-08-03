@@ -37,6 +37,13 @@
     lg:max-w-[1024px]
     mx-auto;
   }
+  .pages {
+    @apply min-h-screen
+    scroll-mt-16
+    px-8
+    pb-5
+    snap-start;
+  }
   .description-text {
     @apply text-justify text-lg font-light text-gray-500;
   }
@@ -61,7 +68,7 @@
       min-w-[320px];
   }
   .project-card {
-    @apply md:w-[220px]
+    @apply w-[220px]
       bg-gray-50
       text-sm
       font-light
@@ -71,7 +78,7 @@
       shadow-xl
       duration-100 
       hover:scale-105
-      cursor-pointer
+      cursor-pointer;
   }
   .icon-button {
     @apply border
@@ -132,5 +139,26 @@
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none; /* For Firefox */
     -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  }
+  .dialog-panel {
+    @apply w-11/12
+    sm:w-8/12 
+    transform 
+    overflow-hidden 
+    rounded-2xl 
+    bg-white 
+    p-6 
+    text-left 
+    align-middle 
+    shadow-xl 
+    transition-all
+  }
+  .dialog-close {
+    @apply hover:text-black 
+    hover:cursor-pointer 
+    text-gray-500 
+    font-semibold
+    float-right 
+    text-lg;
   }
 }
