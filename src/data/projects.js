@@ -2,7 +2,7 @@ const projects = [
   {
     title: 'Paleo',
     imageDirName: 'paleo',
-    thumb: '1.png',
+    thumb: '0.png',
     skills: ['React', 'Node.js', 'TypeScript', 'GraphQL'],
     database: 'PostgreSQL',
     description:
@@ -28,7 +28,7 @@ const projects = [
   {
     title: 'Crypto',
     imageDirName: 'crypto',
-    thumb: '1.png',
+    thumb: '0.png',
     skills: ['Vue 3', 'Vuex', 'TypeScript', 'Socket.IO'],
     database: '',
     description:
@@ -40,7 +40,7 @@ const projects = [
   {
     title: 'Khibra',
     imageDirName: 'khibra',
-    thumb: '1.png',
+    thumb: '0.png',
     skills: ['React', 'Node.js'],
     database: 'PostgreSQL',
     description:
@@ -63,7 +63,7 @@ const projects = [
   {
     title: 'Project Canary',
     imageDirName: 'canary',
-    thumb: '1.png',
+    thumb: '0.png',
     skills: ['React', 'Node.js', 'D3.js', 'NGINX'],
     database: 'MongoDB',
     description:
@@ -86,7 +86,7 @@ const projects = [
   {
     title: 'Indrz',
     imageDirName: 'indrz',
-    thumb: '1.png',
+    thumb: '0.png',
     skills: ['Vue.js', 'Vuex', 'OpenLayers', 'RxJS', 'SCSS'],
     database: '',
     description: `Indrz is a map based web application for university indoor wayfinding, mapping and routing. The platform is for example used by a University that wants to provide its guests, staff and students a web map platform to allow them to find anything on campus`,
@@ -97,7 +97,7 @@ const projects = [
   {
     title: 'Hello Tunnel',
     imageDirName: 'hellotunnel',
-    thumb: '4.png',
+    thumb: '0.png',
     skills: ['Vue.js', 'Vuex', 'SCSS', 'Facebook API', 'Dropbox API'],
     database: '',
     description:
@@ -119,7 +119,7 @@ const projects = [
   {
     title: 'MeetingPulse',
     imageDirName: 'meetingpulse',
-    thumb: '4.png',
+    thumb: '0.png',
     skills: ['Backbone.js', 'Node.js', 'Hapi', 'Redis'],
     database: 'Firebase',
     description: `MeetingPulse by inMoment software is the simple but powerful tool for real-time audience interaction. Used at meetings, events, town halls, panels and more.`,
@@ -147,7 +147,7 @@ const projects = [
   {
     title: 'Basis',
     imageDirName: 'basis',
-    thumb: '1.png',
+    thumb: '0.png',
     skills: [
       'Node.js',
       'Angular',
@@ -176,7 +176,7 @@ const projects = [
   {
     title: 'GetM',
     imageDirName: 'getm',
-    thumb: '1.png',
+    thumb: '0.png',
     skills: [
       'Node.js',
       'AngularJS',
@@ -206,7 +206,7 @@ const projects = [
   {
     title: 'MLPElevate',
     imageDirName: 'mlpelevate',
-    thumb: '1.png',
+    thumb: '0.png',
     skills: ['Node.js', 'ExtJS', 'AWS S3'],
     database: 'MongoDB',
     description: `MLPElevate is an online video based Evaluator Training and Certification System.
