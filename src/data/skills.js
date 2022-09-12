@@ -23,6 +23,7 @@ const skillsData = [
     list: [
       '- Node.js, Express, Sails, Hapi',
       '- AWS S3, EC2, Lambda',
+      '- BullMQ',
       '- Socket.IO',
       '- GraphQL',
       '- Mongoose, Sequelize'

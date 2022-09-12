@@ -1,6 +1,7 @@
 import { useState, createRef, useEffect } from 'react';
+import Placeholder from './Placeholder';
 
-export default function Carousel({ images }) {
+export default function Carousel({ images, placeHolder }) {
   // We will start by storing the index of the current image in the state.
   const [currentImage, setCurrentImage] = useState(0);
   const [loading, setLoading] = useState(null);
@@ -95,11 +96,7 @@ export default function Carousel({ images }) {
                 key={img}
                 ref={refs[i]}
               >
-                <div
-                  style={{ display: loading && !loading[i] ? 'block' : 'none' }}
-                >
-                  Loading...
-                </div>
+                {loading && !loading[i] && <Placeholder />}
                 <img
                   src={img}
                   style={{ display: loading && !loading[i] ? 'none' : 'block' }}
