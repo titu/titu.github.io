@@ -9,7 +9,7 @@ export default function ProjectCard({ title, thumb, onClick, index }) {
   };
   return (
     <div className="project-card">
-      <div className="img_holder md:h-[120px] items-center justify-center flex">
+      <div className="img_holder min-h-[115px] md:h-[120px] items-center justify-center flex">
         {loading && <Placeholder />}
         <img
           style={{ display: loading ? 'none' : 'block' }}

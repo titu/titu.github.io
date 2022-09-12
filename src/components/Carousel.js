@@ -92,14 +92,16 @@ export default function Carousel({ images, placeHolder }) {
           {loading &&
             images.map((img, i) => (
               <div
-                className="w-full items-center justify-center flex flex-shrink-0"
+                className="w-full items-center justify-center flex flex-shrink-0 min-h-[150px] md:min-h-[300px]"
                 key={img}
                 ref={refs[i]}
               >
                 {loading && !loading[i] && <Placeholder />}
                 <img
                   src={img}
-                  style={{ display: loading && !loading[i] ? 'none' : 'block' }}
+                  style={{
+                    display: loading && !loading[i] ? 'none' : 'block'
+                  }}
                   className="mx-auto md:max-w[773px] md:max-h-[440px] object-cover"
                   alt=""
                   onLoad={() =>
