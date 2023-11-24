@@ -1,5 +1,17 @@
 const projects = [
   {
+    title: 'SlideCamp',
+    imageDirName: 'slidecamp',
+    thumb: '0.png',
+    skills: ['React', 'Node.js', 'TypeScript', 'GraphQL', 'Redis'],
+    database: 'MongoDB',
+    description:
+      'Slidecamp creates a winning sales deck library for your team. Easily manage PowerPoint presentations in one place.',
+    role: 'Senior Full-Stack Developer',
+    url: 'https://www.slidecamp.io',
+    images: ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png']
+  },
+  {
     title: 'Paleo',
     imageDirName: 'paleo',
     thumb: '0.png',
