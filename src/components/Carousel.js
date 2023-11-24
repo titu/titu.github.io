@@ -97,19 +97,21 @@ export default function Carousel({ images, placeHolder }) {
                 ref={refs[i]}
               >
                 {loading && !loading[i] && <Placeholder />}
-                <img
-                  src={img}
-                  style={{
-                    display: loading && !loading[i] ? 'none' : 'block'
-                  }}
-                  className="mx-auto md:max-w[773px] md:max-h-[440px] object-cover"
-                  alt=""
-                  onLoad={() =>
-                    setLoading((prevState) => {
-                      return { ...prevState, [i]: true };
-                    })
-                  }
-                />
+                {(currentImage === i - 1 || currentImage === i) && (
+                  <img
+                    src={img}
+                    style={{
+                      display: loading && !loading[i] ? 'none' : 'block'
+                    }}
+                    className="mx-auto md:max-w[773px] md:max-h-[440px] object-cover"
+                    alt=""
+                    onLoad={() =>
+                      setLoading((prevState) => {
+                        return { ...prevState, [i]: true };
+                      })
+                    }
+                  />
+                )}
               </div>
             ))}
           {sliderControl()}
