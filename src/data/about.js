@@ -1,17 +1,17 @@
 const aboutData = {
   text: `<p>
-  I’m a full-stack senior software developer with 14 years of
-  experience. I can develop any system with high quality, using the
-  latest technologies, and deliver on time. Being proficient in
-  various technologies, up-to-date with the newest ones, speed, and
-  accuracy, and a fast understanding of the requirements make me stand
-  out. I hold a Bachelor’s degree in Computer Science and Engineering.
-  I'm also fluent in English.
+  I am a seasoned Senior Full-Stack Developer with over 15 years of experience in designing and building high-quality software solutions. My expertise spans across frontend, backend, and database development, using the latest technologies to deliver scalable and reliable systems.
 </p>
 <p class="pt-4">
-  I've worked with several small and well-known big companies like
-  InMomentSoftware, HawarIT, OpenLM, Divups, Pipedrive, CRI agence,
-  MyLearningPlan, and Frontline Education.
+<b>What sets me apart:</b><br />
+<ul class="list-disc list-inside">
+  <li>Proven ability to understand requirements quickly and deliver solutions with precision.</li>
+  <li>Up-to-date with modern tools and practices to ensure top-tier performance.</li>
+  <li>Strong communication skills and fluency in English.</li>
+</ul>
+</p>
+<p class="pt-4">
+  I hold a Bachelor's degree in Computer Science and Engineering, and I've worked with a range of companies — from early-stage startups to established names like Pipedrive, Frontline Education, MyLearningPlan, OpenLM, HawarIT, InMomentSoftware, Divups, and CRI Agence.
 </p>`
 };
 

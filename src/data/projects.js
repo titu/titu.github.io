@@ -1,5 +1,93 @@
 const projects = [
   {
+    title: 'KillBill',
+    imageDirName: 'killbill',
+    thumb: '0.png',
+    skills: ['Vue', 'TailwindCSS', 'Figma', 'TypeScript', 'Github'],
+    database: '',
+    description:
+      'Worked as a Senior Vue.js Developer on this open-source billing and payment platform for 16+ months on the Aviate SaaS platform, building and enhancing Aviate Admin and Aviate Health. Developed scalable frontend applications using Vue.js, TypeScript, Tailwind CSS, and REST APIs. Built reusable UI components, implemented complex business logic, performed code reviews, optimized performance, resolved bugs, and collaborated with cross-functional teams to deliver high-quality, production-ready features in an Agile environment.',
+    role: 'Senior Vue.js developer',
+    url: 'https://killbill.io',
+    images: [
+      '1.jpg',
+      '2.jpg',
+      '3.jpg',
+      '4.jpg',
+      '5.jpg',
+      '6.jpg',
+      '7.jpg',
+      '8.jpg',
+      '9.jpg',
+      '10.jpg',
+      '11.jpg',
+      '12.jpg',
+      '13.jpg'
+    ]
+  },
+  {
+    title: 'NewCV',
+    imageDirName: 'newcv',
+    thumb: '0.png',
+    skills: ['React', 'Node.js', 'Nest.js', 'TypeScript', 'MariaDB', 'Stripe'],
+    database: 'MariaDB',
+    description:
+      'Developed a web-based resume builder that helps users create professional resumes with AI-powered writing suggestions. The application supports importing existing resumes and LinkedIn profile data, choosing from customizable templates, and editing content through an intuitive drag-and-drop interface with live preview and lazy rendering. Users can easily customize, export, and share polished resumes tailored to their career goals.',
+    role: 'Senior Full Stack Developer',
+    url: 'https://newcv.io',
+    images: [
+      '1.jpg',
+      '2.jpg',
+      '3.jpg',
+      '4.jpg',
+      '5.jpg',
+      '6.jpg',
+      '7.jpg',
+      '8.jpg',
+      '9.jpg',
+      '10.jpg',
+      '11.jpg',
+      '12.jpg',
+      '13.jpg',
+      '14.jpg',
+      '15.jpg'
+    ]
+  },
+  {
+    title: 'Crash Camp',
+    imageDirName: 'crash-camp',
+    thumb: '0.png',
+    skills: [
+      'React',
+      'Node.js',
+      'Next.js',
+      'TypeScript',
+      'MongoDB',
+      'Amazon S3'
+    ],
+    database: 'MongoDB',
+    description:
+      'Developed a full-stack web application as the sole developer to streamline shop drawing management and vendor quotation tracking. Transformed Figma designs into a responsive, production-ready application using React, Next.js, MongoDB, Amazon S3, and Google Maps API. Built features for document management, quotation workflows, and location visualization, delivering a scalable, high-performance solution with an intuitive user experience.',
+    role: 'Senior Developer (Node.js, React/ Next.js)',
+    url: 'https://crash-camp.com',
+    images: [
+      '1.png',
+      '2.png',
+      '3.png',
+      '4.png',
+      '5.png',
+      '6.png',
+      '7.png',
+      '8.png',
+      '9.png',
+      '10.png',
+      '11.png',
+      '12.png',
+      '13.png',
+      '14.png'
+    ]
+  },
+  {
     title: 'SlideCamp',
     imageDirName: 'slidecamp',
     thumb: '0.png',
