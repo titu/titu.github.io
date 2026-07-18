@@ -32,7 +32,7 @@ const projects = [
     skills: ['React', 'Node.js', 'Nest.js', 'TypeScript', 'MariaDB', 'Stripe'],
     database: 'MariaDB',
     description:
-      'Developed a web-based resume builder that helps users create professional resumes with AI-powered writing suggestions. The application supports importing existing resumes and LinkedIn profile data, choosing from customizable templates, and editing content through an intuitive drag-and-drop interface with live preview and lazy rendering. Users can easily customize, export, and share polished resumes tailored to their career goals.',
+      'Worked as a Senior Full-Stack Developer on an established web-based resume builder, enhancing existing features and delivering new functionality across both the frontend and backend. Contributed to resume and LinkedIn profile import, customizable templates, drag-and-drop editing with live preview, performance optimizations such as lazy rendering, and overall application improvements. Collaborated closely with the team to build scalable, maintainable solutions, resolve complex issues, and deliver a seamless user experience.',
     role: 'Senior Full Stack Developer',
     url: 'https://newcv.io',
     images: [
