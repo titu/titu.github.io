@@ -15,6 +15,17 @@ export default function ProjectDialog({
     onClose(false);
   }
 
+  function isValidUrl(value) {
+    if (!value) return false;
+
+    try {
+      const url = new URL(value);
+      return ['http:', 'https:'].includes(url.protocol);
+    } catch {
+      return false;
+    }
+  }
+
   useEffect(() => {
     setIsOpen(showDialog);
   }, [showDialog]);
@@ -108,14 +119,18 @@ export default function ProjectDialog({
                         <div>
                           <div className="font-light text-sm pt-2">
                             <span className="font-semibold">Project URL: </span>
-                            <a
-                              href={selectedProject.url}
-                              target="_blank"
-                              rel="noreferrer"
-                              className="text-blue-800 hover:underline"
-                            >
-                              {selectedProject.url}
-                            </a>
+                            {isValidUrl(selectedProject.url) ? (
+                              <a
+                                href={selectedProject.url}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-blue-800 hover:underline"
+                              >
+                                {selectedProject.url}
+                              </a>
+                            ) : (
+                              <span>{selectedProject.url}</span>
+                            )}
                           </div>
                         </div>
                       )}

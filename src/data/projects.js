@@ -26,7 +26,7 @@ const projects = [
     ]
   },
   {
-    title: 'NewCV',
+    title: 'Resume Builder',
     imageDirName: 'newcv',
     thumb: '0.png',
     skills: ['React', 'Node.js', 'Nest.js', 'TypeScript', 'MariaDB', 'Stripe'],
@@ -34,7 +34,7 @@ const projects = [
     description:
       'Worked as a Senior Full-Stack Developer on an established web-based resume builder, enhancing existing features and delivering new functionality across both the frontend and backend. Contributed to resume and LinkedIn profile import, customizable templates, drag-and-drop editing with live preview, performance optimizations such as lazy rendering, and overall application improvements. Collaborated closely with the team to build scalable, maintainable solutions, resolve complex issues, and deliver a seamless user experience.',
     role: 'Senior Full Stack Developer',
-    url: 'https://newcv.io',
+    url: 'Not publicly available (NDA)',
     images: [
       '1.jpg',
       '2.jpg',
