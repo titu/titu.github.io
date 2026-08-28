@@ -1,5 +1,8 @@
 const aboutData = {
-  text: `<p>
+  text: `<p class="lead">
+  Senior TypeScript &amp; JavaScript Full-Stack Developer specializing in React, Node.js, and product-grade SaaS applications with a strong focus on performance and maintainability.
+</p>
+<p>
   I am a seasoned Senior Full-Stack Developer with over 15 years of experience in designing and building high-quality software solutions. My expertise spans across frontend, backend, and database development, using the latest technologies to deliver scalable and reliable systems.
 </p>
 <p class="pt-4">

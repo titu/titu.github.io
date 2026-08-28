@@ -1,18 +1,36 @@
 import homeData from '../data/home';
 import { Helmet } from 'react-helmet-async';
+import contactData from '../data/contact';
 
 export default function Home() {
   const siteUrl = 'https://titu.github.io';
   const title = `${homeData.name} — ${homeData.whatIDo}`;
-  const description = homeData.whatIDo;
+  const description =
+    'Senior Full-Stack Developer (React, TypeScript, Node.js). 15+ years building SaaS, dashboards, and product-grade web apps.';
 
   const personStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": homeData.name,
-    "url": siteUrl,
-    "jobTitle": "Senior Full-Stack Developer",
-    "description": homeData.whatIDo
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: homeData.name,
+    url: siteUrl,
+    jobTitle: 'Senior Full-Stack Developer',
+    description: homeData.whatIDo,
+    sameAs: [contactData.linkedIn, contactData.github, contactData.upwork],
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        email: contactData.email,
+        contactType: 'professional'
+      }
+    ]
+  };
+
+  const webSiteStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: homeData.name,
+    url: siteUrl,
+    sameAs: [contactData.linkedIn, contactData.github]
   };
 
   return (
@@ -20,12 +38,14 @@ export default function Home() {
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="keywords" content="Senior Full-Stack Developer, TypeScript, React, Node.js, Freelance, SaaS" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={siteUrl} />
         <meta property="og:image" content={`${siteUrl}/assets/images/profile.png`} />
         <script type="application/ld+json">{JSON.stringify(personStructuredData)}</script>
+        <script type="application/ld+json">{JSON.stringify(webSiteStructuredData)}</script>
       </Helmet>
 
       <div id="home" className="pages">
