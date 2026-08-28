@@ -15,7 +15,7 @@ export default function ProjectCard({ title, thumb, onClick, index }) {
           style={{ display: loading ? 'none' : 'block' }}
           className="md:h-[120px] w-full sm:flex-shrink-0 bg-[#F5F5F5] object-cover"
           src={thumb}
-          alt="Profile"
+        alt={title}
           onClick={onProjectClick}
           onLoad={() => setLoading(false)}
         />
