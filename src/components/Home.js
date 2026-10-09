@@ -7,12 +7,12 @@ export default function Home() {
   const description = homeData.whatIDo;
 
   const personStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": homeData.name,
-    "url": siteUrl,
-    "jobTitle": "Senior Full-Stack Developer",
-    "description": homeData.whatIDo
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: homeData.name,
+    url: siteUrl,
+    jobTitle: 'Senior Full-Stack Developer',
+    description: homeData.whatIDo
   };
 
   return (
@@ -24,8 +24,13 @@ export default function Home() {
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={siteUrl} />
-        <meta property="og:image" content={`${siteUrl}/assets/images/profile.png`} />
-        <script type="application/ld+json">{JSON.stringify(personStructuredData)}</script>
+        <meta
+          property="og:image"
+          content={`${siteUrl}/assets/images/ai-titu.jpeg`}
+        />
+        <script type="application/ld+json">
+          {JSON.stringify(personStructuredData)}
+        </script>
       </Helmet>
 
       <div id="home" className="pages">
@@ -46,7 +51,7 @@ export default function Home() {
           <div className="w-full sm:w-2/4 flex justify-center">
             <img
               className="max-w-[250px] sm:max-w-xs sm:ml-5 mt-5 flex-shrink-0 duration-500 hover:scale-105 rounded-lg bg-[#F5F5F5] shadow-lg shadow-cyan-900"
-              src="../assets/images/profile.png"
+              src="../assets/images/ai-titu.jpeg"
               alt={homeData.name}
             />
           </div>
